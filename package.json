@@ -1,0 +1,42 @@
+{
+  "name": "Alphat-old",
+  "version": "9.9.9",
+  "description": "LINE",
+  "main": "./src/main.js",
+  "scripts": {
+    "start": "npm run nino1 && npm run nino2 && npm run nino3 && npm run nino4 && npm run nino5",
+    "nino1": "node ./src/bot1.js",
+    "nino2": "node ./src/bot2.js",
+    "nino3": "node ./src/bot3.js",
+    "nino4": "node ./src/bot4.js",
+    "nino5": "node ./src/bot5.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zelebez6969/alphat-old-js",
+  },
+  "author": "Zelebez <cosadiz69@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "qrcode-terminal": "^0.11.0",
+    "node-bignumber": "^1.2.1",
+    "utf8": "^2.1.1"
+  },
+  "dependencies": {
+    "bluebird": "^3.3.4",
+    "thrift": "^0.10.0",
+    "thrift-http": "^1.0.1",
+    "unirest": "^0.5.0",
+    "request": "^2.0.0",
+    "request-promise": "^2.0.0",
+    "webp-converter": "^2.1.6",
+    "moment": "^2.18.1"
+  },
+  "bugs": {
+    "url": "https://github.com/zelebez6969/alphat-old-js/issues"
+  },
+  "homepage": "https://github.com/zelebez6969/alphat-old-js#README",
+  "keywords": [
+    "line"
+  ]
+}
